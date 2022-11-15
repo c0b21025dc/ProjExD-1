@@ -148,7 +148,7 @@ class Change:  #新クラス　キー入力
         main(bg=bg_file) 
 
     def ranbro(self):
-        ls_bro = [[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]]
+        ls_bro = [ [] for _ in range(18) ]
         for i in range(18):
             for j in range(32):
                 ls_bro[i].append(random.randint(0,1))
